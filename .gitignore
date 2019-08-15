@@ -1,0 +1,14 @@
+node_modules
+dist
+results
+.nyc_output
+*.tsbuildinfo
+
+.DS_Store
+coverage
+
+.next
+
+yarn-error.log
+
+.env

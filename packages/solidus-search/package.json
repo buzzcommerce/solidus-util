@@ -1,0 +1,23 @@
+{
+  "name": "@buzzcommerce/solidus-search",
+  "version": "0.0.0",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist && rm -rf tsconfig.build.tsbuildinfo",
+    "compile": "tsc -b tsconfig.build.json",
+    "watch": "tsc -p tsconfig.build.json --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.5.12",
+    "typescript": "~3.5.3"
+  },
+  "dependencies": {
+  }
+}

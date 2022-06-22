@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^7.3.0",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "p-map": "^3.0.0",
     "yargs": "^13.3.0"
   }
